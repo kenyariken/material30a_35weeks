@@ -1,6 +1,12 @@
 input.onButtonPressed(Button.A, function () {
     isRunning = false
-    music.playTone(262, music.beat(BeatFraction.Half))
+})
+input.onButtonPressed(Button.B, function () {
+    counter = 0
+    basic.showNumber(counter)
+})
+input.onButtonPressed(Button.AB, function () {
+    isRunning = true
 })
 let isRunning = false
 let counter = 0
