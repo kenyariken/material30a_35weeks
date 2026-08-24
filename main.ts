@@ -1,5 +1,6 @@
 input.onButtonPressed(Button.A, function () {
     isRunning = false
+    music.playTone(262, music.beat(BeatFraction.Half))
 })
 let isRunning = false
 let counter = 0
